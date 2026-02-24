@@ -1,4 +1,4 @@
-# Portfolio Personal - Paola 🚀
+# Portfolio Personal - Paola 
 
 Bienvenido/a a mi portfolio personal. Este proyecto es una plataforma diseñada para mostrar mi trayectoria como **Full Stack Developer**, mis proyectos y mis habilidades técnicas.
 
@@ -18,7 +18,7 @@ El sitio cuenta con soporte **multi-idioma (i18n)** y una arquitectura optimizad
 - 📱 **Diseño Responsive:** Optimizado para móviles, tablets y escritorio.
 - ⚡ **Performance:** Alta velocidad de carga gracias a la arquitectura de islas de Astro.
 
-## 🚀 Instalación Local
+## ⚙️ Instalación Local
 
 Para clonar este proyecto y ejecutarlo en tu máquina:
 
