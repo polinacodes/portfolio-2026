@@ -4,7 +4,7 @@ Bienvenido/a a mi portfolio personal. Este proyecto es una plataforma diseñada 
 
 El sitio cuenta con soporte **multi-idioma (i18n)** y una arquitectura optimizada para el rendimiento.
 
-## 🛠️ Tecnologías y Herramientas
+##  Tecnologías y Herramientas
 
 - **Framework:** [Astro](https://astro.build/) (SSG)
 - **Estilos:** [Tailwind CSS](https://tailwindcss.com/)
@@ -12,13 +12,13 @@ El sitio cuenta con soporte **multi-idioma (i18n)** y una arquitectura optimizad
 - **Tipografía:** Onest
 - **Despliegue:** [Vercel](https://vercel.com/)
 
-## 🌐 Características
+##  Características
 
-- 🌍 **Soporte Multi-idioma:** Implementación completa en Español e Inglés.
-- 📱 **Diseño Responsive:** Optimizado para móviles, tablets y escritorio.
-- ⚡ **Performance:** Alta velocidad de carga gracias a la arquitectura de islas de Astro.
+-  **Soporte Multi-idioma:** Implementación completa en Español e Inglés.
+-  **Diseño Responsive:** Optimizado para móviles, tablets y escritorio.
+-  **Performance:** Alta velocidad de carga gracias a la arquitectura de islas de Astro.
 
-## 📬 Contacto
+##  Contacto
 
 Si querés charlar sobre algún proyecto o simplemente conectar:
 
