@@ -18,22 +18,6 @@ El sitio cuenta con soporte **multi-idioma (i18n)** y una arquitectura optimizad
 - 📱 **Diseño Responsive:** Optimizado para móviles, tablets y escritorio.
 - ⚡ **Performance:** Alta velocidad de carga gracias a la arquitectura de islas de Astro.
 
-## ⚙️ Instalación Local
-
-Para clonar este proyecto y ejecutarlo en tu máquina:
-
-1. Clona el repositorio:
-   ```bash
-   git clone [https://github.com/tu-usuario/tu-repositorio.git](https://github.com/tu-usuario/tu-repositorio.git)
-
-2. **Instala las dependencias:**
-   ```bash
-   npm install 
-
-3. **Inicia el servidor de desarrollo:**
-   ```bash
-   npm run dev
-
 ## 📬 Contacto
 
 Si querés charlar sobre algún proyecto o simplemente conectar:

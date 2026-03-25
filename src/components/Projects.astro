@@ -9,19 +9,21 @@ import MySql from "@/icons/MySql.astro";
 import Node from "@/icons/Node.astro";
 import Express from "@/icons/Express.astro";
 import Mongo from "@/icons/Mongo.astro";
+import Tailwind from "@/icons/Tailwind.astro";
 import { getLangFromUrl } from '../i18n/utils.js';
 
 const lang = getLangFromUrl(Astro.url);
 
 const TAGS = {
   // ... (Tus TAGS se quedan exactamente igual, no hace falta tocarlos)
-  REACT: { name: "React", class: "bg-[#003159] text-white border border-[#61DBFB]/20", icon: React },
+  REACT: { name: "React", class: "bg-[#003159] text-white border border-[#38bdf8]/20", icon: React },
   BOOTSTRAP: { name: "Bootstrap", class: "bg-[#311B92] text-white border border-[#D1C4E9]/20", icon: Bootstrap },
   SPRING: { name: "Springboot", class: "bg-[#1B5E20] text-white border border-[#C8E6C9]/20", icon: Spring },
-  MYSQL: { name: "MySQL", class: "bg-[#003545] text-white border border-[#00758F]/20", icon: MySql },
+  MYSQL: { name: "MySQL", class: "bg-[#003545] text-white border border-[#C8E6C9]/20", icon: MySql },
   NODE: { name: "Node.js", class: "bg-[#1B3A1B] text-white border border-[#68A063]/20", icon: Node },
   EXPRESS: { name: "Express.js", class: "bg-[#333333] text-white border border-[#FFFFFF]/20", icon: Express },
   MONGODB: { name: "MongoDB", class: "bg-[#001E2B] text-white border border-[#00ED64]/20", icon: Mongo },
+  TAILWIND: { name: "Tailwind CSS", class: "bg-[#001e2b] text-white border border-[#38bdf8]/20", icon: Tailwind },
 };
 
 // Diccionario de textos para los proyectos
@@ -40,11 +42,11 @@ const TEXT = {
       // },
       {
         title: "ELMNT – E-commerce",
-        description: "In Development - E-commerce platform built with React.js, focusing on performance and scalability. The project features a Responsive Design developed with Tailwind CSS, asynchronous navigation, and a modular architecture that streamlines the integration of new features and code maintenance",
+        description: "High-performance e-commerce platform for a minimalist skincare brand. Focused on user experience (UX) and scalable architecture, achieving fluid navigation and optimized response times. Includes full shopping flow: catalog with product details, functional cart, and checkout. Features a smart search with adaptive scroll, an auth-protected admin dashboard with CRUD operations, and role-based views. Modular architecture optimized with Lazy Loading and Suspense, using React Router DOM for persistent navigation and Context API for state management, ensuring high Web Vitals standards.",
         link: "https://elmnt-skincare.vercel.app/",
         github: "https://github.com/PauDev1/elmnt-ecommerce",
-        image: "/projects/elmnt01.webp",
-        tags: [TAGS.REACT],
+        image: "/projects/elmnt.webp",
+        tags: [TAGS.REACT, TAGS.TAILWIND],
       },
       {
         title: "E-commerce REST API – Java & Spring Boot",
@@ -83,11 +85,11 @@ const TEXT = {
       // },
       {
         title: "ELMNT – E-commerce",
-        description: "En desarrollo - Plataforma de e-commerce desarrollada con React.js y enfocada en rendimiento y escalabilidad. El proyecto cuenta con Responsive Design construido con Tailwind CSS, navegación asíncrona y una estructura modular que facilita la integración de nuevas funcionalidades y el mantenimiento del código.",
+        description: "Plataforma de e-commerce de alta performance para una marca de skincare minimalista. El foco principal fue la experiencia de usuario (UX) y la arquitectura escalable, logrando una navegación fluida y tiempos de respuesta optimizados. Incluye flujo completo de compra: catálogo con detalle de producto, carrito funcional y checkout. Implementa un buscador inteligente con scroll adaptativo, panel de administración con CRUD protegido por autenticación y vistas basadas en roles con renderizado condicional. Arquitectura modular optimizada con Lazy Loading y Suspense, utilizando React Router DOM para navegación persistente y Context API para la gestión de estado, garantizando altos estándares en Web Vitals.",
         link: "https://elmnt-skincare.vercel.app/",
         github: "https://github.com/PauDev1/elmnt-ecommerce",
-        image: "/projects/elmnt01.webp",
-        tags: [TAGS.REACT],
+        image: "/projects/elmnt.webp",
+        tags: [TAGS.REACT, TAGS.TAILWIND],
       },
       {
         title: "E-commerce REST API – Java & Spring Boot",
@@ -125,7 +127,7 @@ const currentContent = TEXT[lang as keyof typeof TEXT] || TEXT['es'];
       return (
       <article>
         <h3 class="text-2xl font-semibold text-gray-800 dark:text-purple-200 mb-2">{title}</h3>
-        <p class="text-lg mb-4 text-gray-700 dark:text-gray-400 text-pretty">{description}</p>
+        <p class="text-lg mb-4 text-gray-700 dark:text-gray-400 whitespace-pre-line text-pretty">{description}</p>
         
         <ul class="flex gap-x-2 flex-row mb-2">
           {tags.map((tag: any) => (
