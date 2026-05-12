@@ -1,4 +1,4 @@
-# Portfolio Personal - Polina 
+# Portfolio Personal - Polinacodes 
 
 Bienvenido/a a mi portfolio personal. Este proyecto es una plataforma diseñada para mostrar mi trayectoria como **Full Stack Developer**, mis proyectos y mis habilidades técnicas.
 
