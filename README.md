@@ -1,4 +1,4 @@
-# Portfolio Personal - Paola 
+# Portfolio Personal - Polina 
 
 Bienvenido/a a mi portfolio personal. Este proyecto es una plataforma diseñada para mostrar mi trayectoria como **Full Stack Developer**, mis proyectos y mis habilidades técnicas.
 
@@ -22,5 +22,4 @@ El sitio cuenta con soporte **multi-idioma (i18n)** y una arquitectura optimizad
 
 Si querés charlar sobre algún proyecto o simplemente conectar:
 
-- **LinkedIn:** [https://www.linkedin.com/in/paola-lizarriba](https://www.linkedin.com/in/paola-lizarriba/)
-- **Web:** [https://pao-portfolio.vercel.app](https://pao-portfolio.vercel.app)
+- **Web:** [https://polinacodes.vercel.app/](https://polinacodes.vercel.app/)
